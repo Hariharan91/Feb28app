@@ -1,0 +1,31 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+main {
+  @extend .container;
+  background-color: #eee;
+  padding-bottom: 80px;
+  width: 100%;
+  margin-top: 51px; 
+  h1 {
+  margin-left: 400px;
+  margin-right: 400px;
+  }
+  h2 {
+  margin-left: 450px;
+  margin-right: 400px;
+  }
+  h3 {
+  margin-left: 450px;
+  margin-right: 400px;
+  }
+}
+  .btn-lg, .btn-group-lg > .btn, .btn-group-lg > .submit, .submit {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+    margin-left: 520px;
+    margin-right: 400px;
+}

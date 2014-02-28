@@ -1,0 +1,9 @@
+<h1> Hi this the home page </h1>
+
+<% if user_signed_in? %>
+	<h2> Create a Post here </h2><%= link_to 'Posts', new_post_path, class: 'btn btn-lg btn-primary' %>
+
+      
+<% else %>
+	<h3> Sign Up to create Post</h3><%= link_to 'Sign Up', new_user_registration_path, class: 'bth btn-lg btn-success' %>
+<% end %>	 
